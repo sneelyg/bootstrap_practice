@@ -12,8 +12,24 @@
 		<title>08 Bootstrap Forms</title>
 	</head>
 	<body>
-		<div class="col-3 mx-auto my-5">
+		<div class="col-6 mx-auto my-5 p-5 bg-secondary rounded">
 			<!-- Add your code below this line -->
+			<form>
+				<div class="mb-3">
+					<h2>Please login</h2>
+					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address" />
+				</div>
+				<div class="mb-3">
+					<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
+				</div>
+				<div class="mb-3 form-check">
+					<input type="checkbox" class="form-check-input" id="exampleCheck1" />
+					<label class="form-check-label" for="exampleCheck1">Remember me</label>
+				</div>
+				<div class="d-grid gap-2 mx-auto">
+					<button type="submit" class="btn btn-primary w-100">Login</button>
+				</div>
+			</form>
 		</div>
 	</body>
 </html>
